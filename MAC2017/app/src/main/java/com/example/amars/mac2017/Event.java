@@ -35,7 +35,7 @@ public class Event extends AppCompatActivity {
         loadData();
 
         //get reference of the ExpandableListView
-        simpleExpandableListView = (ExpandableListView) findViewById(R.id.simpleExpandableListView);
+        simpleExpandableListView = (ExpandableListView) findViewById(R.id.eventList);
         // create the adapter by passing your ArrayList data
         listAdapter = new CustomAdapter(Event.this, deptList);
         // attach the adapter to the expandable list view
@@ -53,8 +53,8 @@ public class Event extends AppCompatActivity {
                 //get the child info
                 ChildInfo detailInfo =  headerInfo.getProductList().get(childPosition);
                 //display it or do something with it
-                Toast.makeText(getBaseContext(), " Clicked on :: " + headerInfo.getName()
-                        + "/" + detailInfo.getName(), Toast.LENGTH_LONG).show();
+                //Toast.makeText(getBaseContext(), " Clicked on :: " + headerInfo.getName()
+                        //+ "/" + detailInfo.getName(), Toast.LENGTH_LONG).show();
                 return false;
             }
         });
@@ -65,8 +65,8 @@ public class Event extends AppCompatActivity {
                 //get the group header
                 GroupInfo headerInfo = deptList.get(groupPosition);
                 //display it or do something with it
-                Toast.makeText(getBaseContext(), " Header is :: " + headerInfo.getName(),
-                        Toast.LENGTH_LONG).show();
+                //Toast.makeText(getBaseContext(), " Header is :: " + headerInfo.getName(),
+                        //Toast.LENGTH_LONG).show();
 
                 return false;
             }

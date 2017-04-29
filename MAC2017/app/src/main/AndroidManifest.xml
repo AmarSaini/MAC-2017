@@ -49,7 +49,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Submit" />
         <activity android:name=".leaderboard" />
-        <activity android:name=".Settings"></activity>
+        <activity android:name=".Settings" />
     </application>
 
 </manifest>
