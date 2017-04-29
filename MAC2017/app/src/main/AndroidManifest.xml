@@ -48,7 +48,8 @@
             android:label="@string/title_activity_map"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Submit" />
-        <activity android:name=".leaderboard"></activity>
+        <activity android:name=".leaderboard" />
+        <activity android:name=".Settings"></activity>
     </application>
 
 </manifest>
