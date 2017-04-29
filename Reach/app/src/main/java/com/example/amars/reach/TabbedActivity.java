@@ -116,9 +116,32 @@ public class TabbedActivity extends AppCompatActivity {
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_tabbed, container, false);
-            TextView textView = (TextView) rootView.findViewById(R.id.section_label);
-            textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
+
+            int sectionNum = getArguments().getInt(ARG_SECTION_NUMBER);
+
+            View rootView = null;
+            TextView textView;
+
+            switch(sectionNum) {
+                case 1:
+                    rootView = inflater.inflate(R.layout.fragment_tabbed, container, false);
+                    textView = (TextView) rootView.findViewById(R.id.section_label);
+                    textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
+                    break;
+                case 2:
+                    rootView = inflater.inflate(R.layout.fragment_tabbed, container, false);
+                    textView = (TextView) rootView.findViewById(R.id.section_label);
+                    textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
+                    break;
+                case 3:
+                    rootView = inflater.inflate(R.layout.fragment_tabbed, container, false);
+                    textView = (TextView) rootView.findViewById(R.id.section_label);
+                    textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
+                    break;
+
+            }
+
+
             return rootView;
         }
     }
