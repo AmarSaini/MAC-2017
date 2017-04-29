@@ -1,7 +1,7 @@
 package com.example.amars.mac2017;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
+        import android.support.v7.app.AppCompatActivity;
+        import android.os.Bundle;
 
 public class leaderboard extends AppCompatActivity {
 

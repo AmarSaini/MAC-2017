@@ -23,10 +23,75 @@ public class MainMenu extends AppCompatActivity {
             }
         });
 
+        Button newEvent = (Button) findViewById(R.id.fetch_new_event);
+        newEvent.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                goToNewEvent();
+            }
+        });
+
+        Button profile = (Button) findViewById(R.id.fetch_profile);
+        profile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                goToProfile();
+            }
+        });
+
+        Button map = (Button) findViewById(R.id.fetch_map);
+        map.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                goToMap();
+            }
+        });
+
+        Button leaderboards = (Button) findViewById(R.id.fetch_leaderboards);
+        leaderboards.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                goToLeaderboards();
+            }
+        });
+
+        Button settings = (Button) findViewById(R.id.fetch_settings);
+        settings.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                goToSettings();
+            }
+        });
+
     }
 
     private void goToEvents() {
         Intent intent = new Intent(this, Event.class);
+        startActivity(intent);
+    }
+
+    private void goToNewEvent() {
+        Intent intent = new Intent(this, Submit.class);
+        startActivity(intent);
+    }
+
+    private void goToProfile() {
+        Intent intent = new Intent(this, Profile.class);
+        startActivity(intent);
+    }
+
+    private void goToMap() {
+        Intent intent = new Intent(this, Map.class);
+        startActivity(intent);
+    }
+
+    private void goToLeaderboards() {
+        Intent intent = new Intent(this, leaderboard.class);
+        startActivity(intent);
+    }
+
+    private void goToSettings() {
+        Intent intent = new Intent(this, Settings.class);
         startActivity(intent);
     }
 }
