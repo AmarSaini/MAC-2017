@@ -30,16 +30,17 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
-        android:background="@android:color/darker_gray"
+        android:background="@android:color/holo_orange_dark"
         android:ems="10"
-        android:hint="Describe your event"
+        android:hint="@string/describe_your_event"
         android:inputType="textMultiLine"
-        android:singleLine="false"
+        android:textColorHint="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.753" />
+        app:layout_constraintVertical_bias="0.753"
+        android:maxLines="1" />
 
     <EditText
         android:id="@+id/editText6"
@@ -49,10 +50,11 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
-        android:background="@android:color/darker_gray"
+        android:background="@android:color/holo_orange_dark"
         android:ems="10"
-        android:hint="MM/DD/YYYY"
+        android:hint="@string/mm_dd_yyyy"
         android:inputType="date"
+        android:textColorHint="@android:color/white"
         app:layout_constraintBottom_toTopOf="@+id/editText7"
         app:layout_constraintHorizontal_bias="0.955"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -66,14 +68,16 @@
         android:layout_marginBottom="74dp"
         android:layout_marginLeft="9dp"
         android:layout_marginRight="8dp"
-        android:background="@android:color/darker_gray"
+        android:background="@android:color/holo_orange_dark"
         android:ems="10"
-        android:hint="HH:MM AM/PM"
+        android:hint="@string/hh_mm_am_pm"
         android:inputType="time"
+        android:textColorHint="@android:color/white"
         app:layout_constraintBottom_toTopOf="@+id/editText5"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toRightOf="@+id/button2"
-        app:layout_constraintRight_toRightOf="parent" />
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="RtlHardcoded" />
 
     <Button
         android:id="@+id/submit_event"
@@ -83,9 +87,12 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
-        android:text="Submit"
+        android:background="@android:color/holo_orange_light"
+        android:text="@string/submit"
+        android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText5" />
+        app:layout_constraintTop_toBottomOf="@+id/editText5"
+        android:maxLines="1" />
 </android.support.constraint.ConstraintLayout>

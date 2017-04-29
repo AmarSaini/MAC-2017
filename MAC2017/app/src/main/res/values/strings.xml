@@ -43,5 +43,9 @@
     <string name="button">Button</string>
     <string name="stats_off">Stats off</string>
     <string name="stats_on">Stats on</string>
+    <string name="submit">Submit</string>
+    <string name="describe_your_event">Describe your event</string>
+    <string name="hh_mm_am_pm">HH:MM AM/PM</string>
+    <string name="mm_dd_yyyy">MM/DD/YYYY</string>
 
 </resources>
