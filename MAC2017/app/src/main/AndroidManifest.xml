@@ -42,7 +42,12 @@
             android:name=".NavAct"
             android:label="@string/title_activity_nav" />
         <activity android:name=".MainMenu" />
-        <activity android:name=".Profile"></activity>
+        <activity android:name=".Profile" />
+        <activity
+            android:name=".Map"
+            android:label="@string/title_activity_map"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Submit"></activity>
     </application>
 
 </manifest>
