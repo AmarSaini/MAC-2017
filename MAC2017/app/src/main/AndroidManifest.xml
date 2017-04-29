@@ -27,7 +27,21 @@
             android:name=".TabbedActivity"
             android:label="@string/title_activity_tabbed"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".SignUp"></activity>
+        <activity android:name=".SignUp" />
+        <activity
+            android:name=".EventSearch"
+            android:label="@string/title_activity_event_search"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".listview" />
+        <activity
+            android:name=".Event"
+            android:label="@string/title_activity_event"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ButtonEvent" />
+        <activity
+            android:name=".NavAct"
+            android:label="@string/title_activity_nav" />
+        <activity android:name=".MainMenu"></activity>
     </application>
 
 </manifest>

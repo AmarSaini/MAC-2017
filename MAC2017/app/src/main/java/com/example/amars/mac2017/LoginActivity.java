@@ -104,7 +104,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     }
 
     private void goToTabbedActivity() {
-        Intent intent = new Intent(this, TabbedActivity.class);
+        Intent intent = new Intent(this, MainMenu.class);
         startActivity(intent);
     }
 
