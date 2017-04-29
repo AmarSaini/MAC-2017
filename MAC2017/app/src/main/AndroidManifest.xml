@@ -47,7 +47,8 @@
             android:name=".Map"
             android:label="@string/title_activity_map"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Submit"></activity>
+        <activity android:name=".Submit" />
+        <activity android:name=".leaderboard"></activity>
     </application>
 
 </manifest>
