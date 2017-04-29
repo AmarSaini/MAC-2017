@@ -47,5 +47,6 @@
     <string name="describe_your_event">Describe your event</string>
     <string name="hh_mm_am_pm">HH:MM AM/PM</string>
     <string name="mm_dd_yyyy">MM/DD/YYYY</string>
+    <string name="title">Title</string>
 
 </resources>
