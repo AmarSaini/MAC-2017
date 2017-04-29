@@ -17,7 +17,11 @@
     <string name="title_activity_tabbed">TabbedActivity</string>
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
-    
+    <string name="finish">Finish</string>
+    <string name="username">Username</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="reenter_password">Reenter password</string>
+
     <string name="title_activity_event_search">EventSearch</string>
 
     <string name="title_activity_event">Event</string>
@@ -31,6 +35,5 @@
     <string name="groups">Groups</string>
     <string name="event_list">Event List</string>
     <string name="settings">Settings</string>
-    
->>>>>>> origin/master
+
 </resources>

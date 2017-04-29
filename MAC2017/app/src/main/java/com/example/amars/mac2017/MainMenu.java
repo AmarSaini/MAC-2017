@@ -15,7 +15,7 @@ public class MainMenu extends AppCompatActivity {
         setContentView(R.layout.activity_main_menu);
 
 
-        ImageButton events = (ImageButton) findViewById(R.id.icon1);
+        Button events = (Button) findViewById(R.id.fetch_events);
         events.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

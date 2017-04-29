@@ -4,16 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/bg"
     tools:context="com.example.amars.mac2017.SignUp">
 
     <EditText
         android:id="@+id/editText"
-        android:layout_width="585dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:layout_marginTop="8dp"
-        android:background="#ffffee88"
+        android:background="#22222222"
         android:ems="10"
         android:hint="@string/username"
         android:inputType="textPersonName"
@@ -25,11 +24,11 @@
 
     <EditText
         android:id="@+id/editText2"
-        android:layout_width="585dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
-        android:background="#ffffee88"
+        android:background="#22222222"
         android:ems="10"
         android:hint="@string/enter_password"
         android:inputType="textPassword"
@@ -41,11 +40,11 @@
 
     <EditText
         android:id="@+id/editText3"
-        android:layout_width="585dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
-        android:background="#ffffee88"
+        android:background="#22222222"
         android:ems="10"
         android:hint="@string/prompt_email"
         android:inputType="textEmailAddress"
@@ -57,11 +56,11 @@
 
     <EditText
         android:id="@+id/editText4"
-        android:layout_width="585dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
-        android:background="#ffffee88"
+        android:background="#22222222"
         android:ems="10"
         android:hint="@string/reenter_password"
         android:inputType="textPassword"
@@ -72,11 +71,12 @@
         app:layout_constraintVertical_bias="0.216" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/finish"
         android:layout_width="279dp"
         android:layout_height="52dp"
         android:background="@mipmap/orange_button"
         android:text="@string/finish"
+        android:textColor="#ffffff"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.503"

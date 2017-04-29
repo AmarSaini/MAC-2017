@@ -6,18 +6,35 @@
     android:layout_height="match_parent"
     tools:context="com.example.amars.mac2017.MainMenu">
 
-    <ImageButton
-        android:id="@+id/icon1"
-        android:layout_width="84dp"
-        android:layout_height="92dp"
-        android:adjustViewBounds="false"
-        android:cropToPadding="true"
-        app:srcCompat="@mipmap/icon1"
-        tools:layout_constraintTop_creator="1"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="48dp"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginLeft="45dp" />
+    <Button
+        android:id="@+id/fetch_events"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@mipmap/icon1"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="42dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@mipmap/icon2"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@mipmap/icon3"
+        tools:layout_editor_absoluteX="268dp"
+        tools:layout_editor_absoluteY="42dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@mipmap/icon4"
+        tools:layout_editor_absoluteY="373dp"
+        tools:layout_editor_absoluteX="16dp" />
 </android.support.constraint.ConstraintLayout>
