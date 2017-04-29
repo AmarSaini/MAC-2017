@@ -41,7 +41,8 @@
         <activity
             android:name=".NavAct"
             android:label="@string/title_activity_nav" />
-        <activity android:name=".MainMenu"></activity>
+        <activity android:name=".MainMenu" />
+        <activity android:name=".Profile"></activity>
     </application>
 
 </manifest>
