@@ -39,5 +39,9 @@
     <string name="settings">Settings</string>
 
     <string name="title_activity_map">Map</string>
+    <string name="autoreport">Autoreport</string>
+    <string name="button">Button</string>
+    <string name="stats_off">Stats off</string>
+    <string name="stats_on">Stats on</string>
 
 </resources>
