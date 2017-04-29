@@ -20,17 +20,15 @@
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintVertical_bias="0.0"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <EditText
         android:id="@+id/editText5"
-        android:layout_width="0dp"
+        android:layout_width="364dp"
         android:layout_height="223dp"
         android:layout_marginBottom="16dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
         android:background="@android:color/holo_orange_dark"
         android:ems="10"
@@ -42,62 +40,52 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.753"
-        android:maxLines="1"
-        tools:layout_constraintRight_creator="1"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp"
-        tools:layout_constraintLeft_creator="1" />
+        android:maxLines="1" />
 
     <EditText
         android:id="@+id/editText6"
-        android:layout_width="179dp"
-        android:layout_height="47dp"
-        android:layout_marginBottom="22dp"
+        android:layout_width="189dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginTop="23dp"
+        android:layout_marginTop="8dp"
         android:background="@android:color/holo_orange_dark"
         android:ems="10"
         android:hint="@string/mm_dd_yyyy"
         android:inputType="date"
         android:textColorHint="@android:color/white"
         app:layout_constraintBottom_toTopOf="@+id/editText7"
-        app:layout_constraintRight_toRightOf="@+id/editText7"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        app:layout_constraintVertical_bias="0.0"
-        app:layout_constraintLeft_toLeftOf="@+id/editText7" />
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editText7"
-        android:layout_width="0dp"
+        android:layout_width="187dp"
         android:layout_height="47dp"
-        android:layout_marginBottom="78dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="16dp"
+        android:layout_marginBottom="74dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="8dp"
         android:background="@android:color/holo_orange_dark"
         android:ems="10"
         android:hint="@string/hh_mm_am_pm"
         android:inputType="time"
         android:textColorHint="@android:color/white"
         app:layout_constraintBottom_toTopOf="@+id/editText5"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toRightOf="@+id/button2"
         app:layout_constraintRight_toRightOf="parent"
-        tools:ignore="RtlHardcoded"
-        tools:layout_constraintRight_creator="1"
-        android:layout_marginStart="9dp"
-        android:layout_marginEnd="16dp"
-        tools:layout_constraintLeft_creator="1" />
+        tools:ignore="RtlHardcoded" />
 
     <Button
         android:id="@+id/submit_event"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
         android:background="@android:color/holo_orange_light"
         android:text="@string/submit"
@@ -106,7 +94,5 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText5"
-        android:maxLines="1"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintLeft_creator="1" />
+        android:maxLines="1" />
 </android.support.constraint.ConstraintLayout>
