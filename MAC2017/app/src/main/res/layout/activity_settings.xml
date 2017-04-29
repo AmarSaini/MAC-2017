@@ -42,8 +42,8 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="233dp"
-        android:layout_height="64dp"
+        android:layout_width="249dp"
+        android:layout_height="87dp"
         android:layout_marginBottom="93dp"
         android:layout_marginTop="97dp"
         android:background="@mipmap/twit"
@@ -54,7 +54,9 @@
         tools:layout_constraintBottom_creator="1"
         tools:layout_constraintLeft_creator="1"
         tools:layout_constraintRight_creator="1"
-        tools:layout_constraintTop_creator="1" />
+        tools:layout_constraintTop_creator="1"
+        app:layout_constraintVertical_bias="0.814"
+        tools:layout_editor_absoluteX="74dp" />
 
     <ToggleButton
         android:id="@+id/toggleButton"
